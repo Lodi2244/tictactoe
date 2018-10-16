@@ -22,13 +22,13 @@ and if there is no winner when grid is full, then game stop as a tie.
 
 4 classes to resume this intro :
   1. Game
-    - Manage moves
-    - Switch players
-    - Play a game
-    - Check if a game over
-    - Some display
+   - Manage moves
+   - Switch players
+   - Play a game
+   - Check if a game over
+   - Some display
   2. Boarcase
-    - Contain a value witch can be modify
+   - Contain a value witch can be modify
   3. Player
    -  Player as a name and a sign
   4. Board
