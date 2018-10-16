@@ -34,7 +34,7 @@ module Tictactoe
       return :winner if winner?
       return :draw if draw?
     end
-    # To define winner, there is 8 possible winning positions
+    
     # Flatten the grid and try none_empty?. Return true if none is empty
     def draw?
       grid.flatten.map { |cell| cell.value }.none_empty?
