@@ -71,10 +71,10 @@ module Tictactoe
     # Private methods
 
     private
-    
-    # a default grid, compose by 3 rows, 3 columns of Cell object
+
+    # a default grid, compose by 3 rows, 3 columns of BoardCase object
     def default_grid
-      Array.new(3) { Array.new(3) { Cell.new } }
+      Array.new(3) { Array.new(3) { BoardCase.new } }
     end
   end
 end
