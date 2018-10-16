@@ -7,13 +7,13 @@ They objective was to
 
 ## How to use it
 
-- Clone this repos
-- `$ ruby tictactoe.rb`
+1. Clone this repo
+1. `$ ruby tictactoe.rb`
 
 
-### How it works ?
+## How it works ?
 
-- One file by class (check tictactoe directory)
+One file by class (check tictactoe directory)
 
 A tictactoe is a game for 2 players, witch put their signs on a board
 The board is a 3x3 square , each square called a cell can have 3 values: nill or the signs of players. The winner is the player who
