@@ -18,7 +18,8 @@ module Tictactoe
 
     # ask the player a human move
     def ask_move
-      "#{current_player.name}: Enter a number between 1 and 9"
+      puts "#{current_player.name}: Enter a number between 1 and 9"
+      print ">"
     end
 
     # get the move from player and pass it to human_move_to_coord
@@ -37,7 +38,7 @@ module Tictactoe
       while true
         board.formatted_grid
         puts ""
-        puts ask_move
+        ask_move
         x, y = get_move
         board.set_cell(x, y, current_player.sign)
         if board.game_over
