@@ -34,3 +34,7 @@ and if there is no winner when grid is full, then game stop as a tie.
    - Init a default_grid
    - Check if game is win or draw
    - Change boardcases' value
+
+## TODO
+- The board should not change cell value if there is one
+- Purpose a new game
