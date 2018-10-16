@@ -4,6 +4,7 @@ require_relative "./tictactoe/board.rb"
 require_relative "./tictactoe/game.rb"
 require_relative "./tictactoe/core_extension.rb"
 
+# This is the main launcher of Tictactoe module. 
 module Tictactoe
   puts "========================================="
   puts "              TIC TAC TOE                "

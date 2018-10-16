@@ -1,4 +1,4 @@
-# We need to add Array some methods to help us
+# We need to add Array some methods to help us at board.rb
 class Array
   # Return true if all array content is empty
   def all_empty?
