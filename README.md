@@ -22,6 +22,17 @@ and if there is no winner when grid is full, then game stop as a tie.
 
 - 4 classes to resume this intro :
   1. Game
-  2. Cell
+    - Manage moves
+    - Switch players
+    - Play a game
+    - Check if a game over
+    - Some display
+  2. Boarcase
+    - Contain a value witch can be modify
   3. Player
+   -  Player as a name and a sign
   4. Board
+   - Init a default_grid
+   - Check if game is win or draw
+   - Change boardcases' value
+  
