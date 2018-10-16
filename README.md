@@ -3,7 +3,6 @@
 *a tictactoe terminal game for 2 players*
 
 This is a tictactoe game on your terminal.
-They objective was to
 
 ## How to use it
 
