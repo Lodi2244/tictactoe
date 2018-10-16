@@ -7,7 +7,7 @@ This is a tictactoe game on your terminal.
 ## How to use it
 
 - Clone this repos
-- ruby tictactoe.rb
+- `$ ruby tictactoe.rb`
 
 
 ### How it works ?
