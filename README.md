@@ -20,7 +20,7 @@ The board is a 3x3 square , each square called a cell can have 3 values: nill or
 puts a consecutive combinaison of 3 signs. Each turn, players switch
 and if there is no winner when grid is full, then game stop as a tie.
 
-- 4 classes to resume this intro :
+4 classes to resume this intro :
   1. Game
     - Manage moves
     - Switch players
@@ -35,4 +35,3 @@ and if there is no winner when grid is full, then game stop as a tie.
    - Init a default_grid
    - Check if game is win or draw
    - Change boardcases' value
-  
