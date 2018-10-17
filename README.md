@@ -14,10 +14,10 @@ This is a tictactoe game on your terminal.
 
 One file by class (check tictactoe directory)
 
-A tictactoe is a game for 2 players, witch put their signs on a board
-The board is a 3x3 square , each square called a cell can have 3 values: nill or the signs of players. The winner is the player who
-puts a consecutive combinaison of 3 signs. Each turn, players switch
-and if there is no winner when grid is full, then game stop as a tie.
+A tictactoe is a game for 2 players, which put their signs on a board
+The board is a 3x3 square , each square called a cell can have 3 values: nil or the signs of players. The winner is the player who
+puts a consecutive combination of 3 signs. Each turn, players switch
+and if there is no winner when grid is full, then game stops as a tie.
 
 4 classes to resume this intro :
   1. Game
@@ -27,14 +27,14 @@ and if there is no winner when grid is full, then game stop as a tie.
    - Check if a game over
    - Some display
   2. Boarcase
-   - Contain a value witch can be modify
+   - Contain a value which can be modify
   3. Player
-   -  Player as a name and a sign
+   -  Player has a name and a sign
   4. Board
    - Init a default_grid
-   - Check if game is win or draw
+   - Check if game is won or drawn
    - Change boardcases' value
 
 ## TODO
 - The board should not change cell value if there is one
-- Purpose a new game
+- Propose a new game
